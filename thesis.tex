@@ -14,13 +14,16 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 
 \usepackage{biblatex}
 \addbibresource{sample.bib}
-\usepackage{titlesec}
 
+
+
+\usepackage{titlesec}
 \newcommand*{\justifyheading}{\raggedleft}
 \titleformat{\chapter}[display]
-  {\normalfont\huge\bfseries\justifyheading}{\chaptertitlename\ \thechapter}
-  {16pt}{\Huge}
-\titlespacing*{\chapter}{-20pt}{-75pt}{10pt}
+  {\normalfont\Large\bfseries\justifyheading}{\chaptertitlename\ \thechapter}
+  {10pt}{\vspace{1.5ex}}
+  [\vspace{1ex}\titlerule]
+\titlespacing*{\chapter}{-20pt}{-5pt}{10pt}
 
 
 \usepackage{geometry}
@@ -121,6 +124,7 @@ May 2013
 
 \newpage
 \listoffigures
+\newpage
 \listoftables
 \clearpage
 
@@ -591,6 +595,8 @@ So all this benifits motivates me to produce a dictation system for our motheer 
 manner in ordinary languages within a limited domain. Basic and applied research in
 signal processing, computational linguistics and artificial intelligence have been
 combined to open up new possibilities in human-computer interfaces.
+
+\newpage
 
 \section{System Framework}
 
@@ -1072,6 +1078,44 @@ The output the model trained for Punjabi language is given in the figure below:
 \end{figure}
 
 
+%=====================================================================================================================================================
+\chapter{CONCLUSION}
+
+\section{Conclusion}
+For the past many years, several mechanisms for the communication among human-
+machine have been explored. There is much evidence that human speech dictation in
+machine involves the integration of a great variety of knowledge sources, including
+knowledge of the world or context, knowledge of the speaker and/or topic and many
+more. Although there have been significant recent gains in speech dictation, current
+technology is far from human-like: only systems in limited domains can be envisioned
+in the near term, and the portability of existing techniques is still rather limited.
+Application areas that appear to be a good match to technology on the near horizon
+include those that are naturally limited.
+
+The objective of the thesis was “speech pattern recognition for speech to text
+conversion”. The researcher desire was to pronounced the Punjabi character from any
+user, identify it and print it in the text editor. In other word, the recognition of the
+Punjabi character or one can say the dictation of the Punjabi character.
+
+\section{Future Work}
+
+The speech dictation is a very huge research work area and required a team of skilled
+researcher. Although, the researcher has tried his level best to detect the Punjabi
+character. When the idea of the speech dictation was born in the mind of the
+researcher, his dream was to dictate the Punjabi continuous speech. The work is of
+considerable domain and hence the beginning to end of the work has made with the
+detection of Punjabi characters and with its total analysis. So the present study has scope for the
+continuation of research for all the remaining Punjabi characters, which further can
+be extended in the Punjabi word dictation and ultimately the dictation of words can
+again be extended for the continuous speech dictation in Punjabi language.
+
+Although many recent advances and successes in speaker recognition have been
+achieved, there are still many possible enhancement for which good solutions are to
+be found. Most of these problems arise from variability, including speaker-generated
+variability and variability in channel and recording conditions. It is very important to
+investigate feature parameters that are stable over time, insensitive to the variation of
+speaking manner, including the speaking rate and level, and robust against variations
+in voice quality due to causes such as voice disguise or colds and many more ...
 
 
 
@@ -1081,29 +1125,136 @@ The output the model trained for Punjabi language is given in the figure below:
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+%\appendix
+
+%\chapter{Additional}
+%Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+%=====================================================================================================================================================
 
-
-
-
-
-
-
-
-
-\appendix
-
-\chapter{Additional}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-\printbibliography
 
 %\bibliographystyle{unsrt}
 %\bibliography{sample}
+
+%\printbibliography[title=References]
+
+
+\begin{thebibliography}{9}
+
+\bibitem{1}
+Chowdhury, Gobinda G. 
+"Natural language processing."
+%Annual review of information science and technology 37.1 (2003): 51­89.
+\textit{Annual review of information science and technology 37.1,} 2003: 5189.
+
+\bibitem{2}
+Kaur, Navdeep,Vandana Pushe, and Rupinderdeep Kaur.
+Natural Language Processing Interface for Synonym."
+\textit{from outside the contents of the document,} 2014.
+
+\bibitem{3}
+Kaur, Kamaldeep, and Vishal Gupta.
+"Name and Entity Recognition for Punjabi Language."
+\textit{Machine translation 2.3,} 2012.
+
+\bibitem{4}
+http://www.programmershare.com/
+%\textit{}
+
+\bibitem{5}
+http://cmusphinx.sourceforge.net/wiki/
+%\textit{}
+
+\bibitem{6}
+[6]Kumbharana, Chandresh K."Speech Pattern Recognition for Speech to Text Conversion."
+\textit{Diss. Saurashtra University,} 2007.
+
+\bibitem{7} Electronics for U may 2000
+%\textit{}
+
+\bibitem{8}IBM, Developing voice applications.
+%\textit{}
+
+\bibitem{9} https://en.wikipedia.org/wiki/Ubuntu\_(28operating\_system)
+\textit{}
+
+\bibitem{10}http://www.gnu.org/software/bison/
+\textit{}
+
+\bibitem{11}http://www.swig.org/Doc1.3/Library.html
+\textit{}
+
+\bibitem{12}https://en.wikipedia.org/wiki/GStreamer
+\textit{}
+
+\bibitem{13}http://gstreamer.freedesktop.org/features/
+\textit{}
+
+\bibitem{14}https://launchpad.net/ubuntu/precise/+package/pythondev
+\textit{}
+
+\bibitem{15}http://sourceforge.net/projects/cmusphinx/files/sphinxtrain/5prealpha/
+\textit{}
+
+\bibitem{16}Necula, George C."Translation validation for an optimizing compiler."
+\textit{ACM sigplan notices. Vol. 35. No. 5. ACM,} 2000.
+
+\bibitem{17}https://www.gnu.org/software/automake/
+\textit{}
+
+\bibitem{18}Mac, David, Tom, and Alexendre. "GNU Automake."
+\textit{User Manual, for Automake version 1,} 1995.
+
+\bibitem{19} Calcote, John. "Autotools: A Practitioner's"
+\textit{Guide to GNU Autoconf, Automake, and Libtool. No Starch Press,} 2010.
+
+\bibitem{20}Byrne, William, et al. "Towards language independent acoustic modeling."
+\textit{Acoustics, Speech, and Signal Processing,} 2000. ICASSP'00. Proceedings. 2000 IEEE International Conference on. Vol. 2. IEEE, 2000.
+
+\bibitem{21}Lippmann, Richard P. "Speech recognition by machines and humans."
+\textit{Speech communication 22.1,} 1997.
+
+\bibitem{22} Schultz, TAnja, and Alex. "Language independent and languge adaptive acoustic model for speech recognition."
+\textit{Speech Communication 35.1,} 2001.
+
+\bibitem{23} Walker, Willie, et al. "Sphinx4: A flexible open source framework for speech recognition,", 2004.
+\textit{}
+
+\bibitem{24}Sankar, Fuliang Weng Andreas Stolcke Ananth. "Efficient Lattice Representation and Generation.", 2006.
+\textit{}
+
+\bibitem{25} Dua, Mohit, et al. "Punjabi automatic speech recognition using HTK."
+\textit{IJCSI International Journal of Computer Science Issues 9.4,} 2012.
+
+
+\bibitem{26} Ravinder, Kumar. "Comparison of hmm and dtw for isolated word recognition system of punjabi language."
+\textit{Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications. Springer Brelin,} 2010.
+
+\bibitem{27}Grasch, Peter, Alexander Felfernig, and Florian Reinfrank. "ReComment: Towards critiquing-
+based recommendation with speech interaction."
+\textit{Proceedings of the 7th ACM Conference on Recommender Systems. ACM,} 2013.
+
+\bibitem{28}Ravinder, and Rajendra Kumar Sharma. "An efficient post processing algorithm for online handwriting Gurmukhi character recognition using set theory."
+\textit{International Journal of Pattern Recognition and Artificial Intelligence 27.04,} 2013.
+
+\bibitem{29}Bansal, Divya, Ankita Goel, and Khushneet Jindal. "Punjabi Speech Synthesis System Using Htk."
+\textit{International Journal of Information 2.4,} 2012.
+
+\bibitem{30}Dua, Mohit, et al. "Punjabi speech to text system for connected words.", 2012.
+\textit{}
+
+\bibitem{}Ghai, Wiqas, and Navdeep Singh. "Continuous Speech Recognition for Punjabi."2013.
+\textit{}
+
+\end{thebibliography}
+
+
+
 
 \end{document}
 
