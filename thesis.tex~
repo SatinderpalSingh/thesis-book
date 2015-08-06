@@ -59,8 +59,8 @@ bindingoffset=10mm, top=25mm,bottom=25mm}
 \makepagestyle{plain}
 \makeevenfoot{plain}{\thepage}{}{}
 \makeoddfoot{plain}{}{}{\thepage}
-%\makeevenhead{plain}{}{}{}
-%\makeoddhead{plain}{}{}{}
+\makeevenhead{plain}{}{}{}
+\makeoddhead{plain}{}{}{}
 
 \setsecnumdepth{subsubsection}
 \maxsecnumdepth{subsubsection} % chapters, sections, and subsections are numbered
@@ -146,10 +146,10 @@ Natural language processing approaches fall roughly into four categories: symbol
 
 Speech is a complex phenomenon. It is important to  understand how is it produced and perceived. The naive perception is often that speech is built with words, and each word consists of phones. The reality is unfortunately very different. Speech is a dynamic process without clearly distinguished parts.
 
-\subsection{Structure of speech}
-Speech is a continuous audio stream where rather stable states mix with dynamically changed states. In this sequence of states, one can define more or less similar classes of sounds, or \textbf{phones}. Words are understood to be built of phones, but this is certainly not true. The acoustic properties of a waveform corresponding to a phone can vary greatly depending on many factors - phone context, speaker, style of speech and so on. The so called coarticulation makes phones sound very different from their “canonical” representation. Next, since transitions between words are more informative than stable regions, developers often talk about \textbf{diphones}- parts of phones between two consecutive phones. Sometimes developers talk about subphonetic units - different substates of a phone. Often three or more regions of a different nature can easily be found.
+\subsection{Structure of Speech}
+Speech is a continuous audio stream where rather stable states mix with dynamically changed states. In this sequence of states, one can define more or less similar classes of sounds, or phones. Words are understood to be built of phones, but this is certainly not true. The acoustic properties of a waveform corresponding to a phone can vary greatly depending on many factors - phone context, speaker, style of speech and so on. The so called coarticulation makes phones sound very different from their “canonical” representation. Next, since transitions between words are more informative than stable regions, developers often talk about diphones- parts of phones between two consecutive phones. Sometimes developers talk about subphonetic units - different substates of a phone. Often three or more regions of a different nature can easily be found.
 
-The first part of the phone depends on its preceding phone, the middle part is stable, and the next part depends on the subsequent phone. That's why there are often three states in a phone selected for speech recognition.Sometimes phones are considered in context. Such phones in context are called \textbf{triphones} or even \textbf{quinphones}. For computational purpose it is helpful to detect parts of triphones instead of triphones as a whole, for example, to create a detector for a beginning of triphone and share it across many triphones. The whole variety of sound detectors can be represented by a small amount of distinct short sound detectors. Usually we use 4000 distinct short sound detectors to compose detectors for triphones. We call those detectors \textbf{senones}. 
+The first part of the phone depends on its preceding phone, the middle part is stable, and the next part depends on the subsequent phone. That's why there are often three states in a phone selected for speech recognition.Sometimes phones are considered in context. Such phones in context are called triphones or even quinphones. For computational purpose it is helpful to detect parts of triphones instead of triphones as a whole, for example, to create a detector for a beginning of triphone and share it across many triphones. The whole variety of sound detectors can be represented by a small amount of distinct short sound detectors. Usually we use 4000 distinct short sound detectors to compose detectors for triphones. We call those detectors senones. 
 
 \section{ Problem Statement}
 
@@ -185,9 +185,6 @@ In \textbf{Chapter 6}, covers the conclusion by us. At last we have shown differ
 
 
 
-Citation of Einstein paper~\cite1
-
-
 
 
 
@@ -213,13 +210,13 @@ Speech is a complex phenomenon. People rarely understand how is it produced and 
 All modern descriptions of speech are to some degree probabilistic. That means that there are no certain boundaries between units, or between words. Speech to text translation and other applications of speech are never 100 percent correct. That idea is rather unusual for software developers, who usually work with deterministic systems. And it creates a lot of issues specific only to speech technology. 
 
 
-\subsection{Concept of speech}
+\subsection{Concept of Speech}
 Speech is a continuous audio stream where rather stable states mix with dynamically changed states. In this sequence of states, one can define more or less similar classes of sounds, or \textbf{phones}. Words are understood to be built of phones, but this is certainly not true. The acoustic properties of a waveform corresponding to a phone can vary greatly depending on many factors - phone context, speaker, style of speech and so on. The so called coarticulation makes phones sound very different from their “canonical” representation. Next, since transitions between words are more informative than stable regions, developers often talk about \textbf{diphones}- parts of phones between two consecutive phones. Sometimes developers talk about subphonetic units - different substates of a phone. Often three or more regions of a different nature can easily be found.
 
 The first part of the phone depends on its preceding phone, the middle part is stable, and the next part depends on the subsequent phone. That's why there are often three states in a phone selected for speech recognition.Sometimes phones are considered in context. Such phones in context are called \textbf{triphones} or even \textbf{quinphones}. For computational purpose it is helpful to detect parts of triphones instead of triphones as a whole, for example, to create a detector for a beginning of triphone and share it across many triphones. The whole variety of sound detectors can be represented by a small amount of distinct short sound detectors. Usually we use 4000 distinct short sound detectors to compose detectors for triphones. We call those detectors \textbf{senones}. 
 
 
-\subsection{Recognition precess}
+\subsection{Recognition Precess}
  The common way to recognize speech is the following: we take waveform, split it on utterances by silences then try to recognize what's being said in each utterance. To do that we want to take all possible combinations of words and try to match them with the audio. We choose the best matching combination. There are few important things in this match.
 
 First of all it's a concept of features. Since number of parameters is large, we are trying to optimize it. Numbers that are calculated from speech usually by dividing speech on frames. Then for each frame of length typically 10 milliseconds we extract 39 numbers that represent the speech. That's called eature vector. They way to generates numbers is a subject of active investigation, but in simple case it's a derivative from spectrum.
@@ -307,13 +304,13 @@ In this chapter, we describes about the Introduction of Speech Recognition conce
 
 
 \chapter{LITERATURE REVIEW}
-\section{Literature review}
+\section{Literature Review}
 The main objective of the present study was: “To develop a software for speech to
 text conversion”. The researcher had studied a lot of related literature to identify the
 different works done in the related area. The study had given a more clear vision in
 the task. In this present chapter, the brief information about the related research works
 for the present study is given.
-\subsection{A glance over related literature}
+\subsection{A glance over Related Literature}
 Initial computers were design just to do simple calculations; scientists have been
 trying to endow the computer with more and more intelligence. That is to make the
 digital machine, do things, which require human-like intelligence. Thus the term
@@ -348,7 +345,7 @@ utterance, typically, this means finding the sequence of characters, which forms
 word.
 \end{description}
 
-\subsection{Some empirical studies}
+\subsection{Some Empirical Studies}
 A life without speech (voice) is a picture without color. Speech is viewed in two
 different ways; one is generation of the voice by human beings and other is to
 understand the speech by the opponent. The God has gifted both the things to all the
@@ -359,7 +356,7 @@ introduced and with the applications of AI human had tried to talk to computers.
 many applications related to speech is developed. The development process can be
 summarized as follow:
 
-\subsubsection{An unsurpassed Heritage in Speech}
+\subsubsection{An Unsurpassed Heritage in Speech}
 
 Bell telephone researchers began with Alexander Graham Bell and his assistant
 Watson held their historic telephone conversion in 1876. In the area of speech
@@ -396,7 +393,7 @@ English speaking community. Having found this limitation, as a proactive effort,
 academia. Some R and D projects were also funded by the Department of Electronic
 (DoE), Government of India in this area.
 
-\subsubsection{The Early Efforts (during 1980-90)}
+\subsubsection{The Early Efforts (During 1980-90)}
 DoE organized a symposium on “Linguistic Implications of Computer Based
 Information Processing” in 1979. Probably this was the first symposium in this area,
 supported by DoE. As the outcome about ten projects were initiated.

@@ -9,7 +9,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Content}{9}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Structure of speech}{10}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Structure of Speech}{10}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2} Problem Statement}{11}{section.1.2}
 \defcounter {refsection}{0}\relax 
@@ -21,9 +21,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Concept of speech}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Concept of Speech}{13}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Recognition precess}{14}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Recognition Precess}{14}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.2.1}Models}{14}{subsubsection.2.1.2.1}
 \defcounter {refsection}{0}\relax 
@@ -37,17 +37,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}LITERATURE REVIEW}{21}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Literature review}{21}{section.3.1}
+\contentsline {section}{\numberline {3.1}Literature Review}{21}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}A glance over related literature}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}A glance over Related Literature}{21}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Some empirical studies}{22}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Some Empirical Studies}{22}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2.1}An unsurpassed Heritage in Speech}{22}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.1}An Unsurpassed Heritage in Speech}{22}{subsubsection.3.1.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.2.2}Language Technology in India}{23}{subsubsection.3.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2.3}The Early Efforts (during 1980-90)}{23}{subsubsection.3.1.2.3}
+\contentsline {subsubsection}{\numberline {3.1.2.3}The Early Efforts (During 1980-90)}{23}{subsubsection.3.1.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}PROPOSED SCHEME}{27}{chapter.4}
 \defcounter {refsection}{0}\relax 
