@@ -244,7 +244,7 @@ role of each CMU-Sphinx tool, used in various phases of system development, by p
 \chapter{INTRODUCTION}
 
 \section{Content}
-Natural Language Processing(NLP) is an area of research and application that explores how computers can be used to understand and manipulate natural language text or speech to do useful things. NLP researchers aim to gather knowledge on how human beings understand and use language so that appropriate tools and techniques can be developed to make computer systems understand and manipulate natural languages to perform the desired tasks. The foundations of NLP lie in a number of disciplines, viz. computer and information sciences, linguistics, mathematics, electrical and electronic engineering, artificial intelligence and robotics, psychology, etc. Applications of NLP include a number of fields of studies, such as machine translation, natural language text processing and summarization, user interfaces, multilingual and cross language information retrieval(CLIR), speech recognition, artificial intelligence and expert systems, and so on\cite1.
+Natural Language Processing(NLP) is an area of research and application that explores how computers can be used to understand and manipulate natural language text or speech to do useful things. NLP researchers aim to gather knowledge on how human beings understand and use language so that appropriate tools and techniques can be developed to make computer systems understand and manipulate natural languages to perform the desired tasks. The foundations of NLP lie in a number of disciplines, viz. computer and information sciences, linguistics, mathematics, electrical and electronic engineering, artificial intelligence and robotics, psychology, etc. Applications of NLP include a number of fields of studies, such as machine translation, natural language text processing and summarization, user interfaces, multilingual and cross language information retrieval(CLIR), speech recognition, artificial intelligence and expert systems, and so on\cite{1}.
 
 At the core of any NLP task there is the important issue of natural language understanding. The process of building computer programs that understand natural language involves three major problems: the first one relates to the thought process, the second one to the representation and meaning of the linguistic input, and the third one to the world knowledge. Thus, an NLP system may begin at the word level – to determine the morphological structure, nature(such as part-of- speech, meaning) etc. of the word – and then may move on to the sentence level – to determine morphological level that deals with the smallest parts of words, that carry a meaning, and suffixes and prefixes:-  lexical level that deals with lexical meaning of words and parts of speech analyses, syntactic level that deals with grammar and structure of sentences, semantic level that deals with the meaning of words and sentences, discourse level that deals with the structure of different kinds of text using document structures and pragmatic level that deals with the knowledge that comes from the outside world, i.e. from outside the contents of the document.
 
@@ -257,13 +257,13 @@ Natural language processing approaches fall roughly into four categories: symbol
 Speech is a complex phenomenon. It is important to  understand how is it produced and perceived. The naive perception is often that speech is built with words, and each word consists of phones. The reality is unfortunately very different. Speech is a dynamic process without clearly distinguished parts.
 
 \subsection{Structure of Speech}
-Speech is a continuous audio stream where rather stable states mix with dynamically changed states. In this sequence of states, one can define more or less similar classes of sounds, or phones. Words are understood to be built of phones, but this is certainly not true. The acoustic properties of a waveform corresponding to a phone can vary greatly depending on many factors - phone context, speaker, style of speech and so on. The so called coarticulation makes phones sound very different from their “canonical” representation. Next, since transitions between words are more informative than stable regions, developers often talk about diphones- parts of phones between two consecutive phones. Sometimes developers talk about subphonetic units - different substates of a phone. Often three or more regions of a different nature can easily be found.
+Speech is a continuous audio stream where rather stable states mix with dynamically changed states. In this sequence of states, one can define more or less similar classes of sounds, or phones. Words are understood to be built of phones, but this is certainly not true. The acoustic properties of a waveform corresponding to a phone can vary greatly depending on many factors - phone context, speaker, style of speech and so on. The so called coarticulation makes phones sound very different from their “canonical” representation. Next, since transitions between words are more informative than stable regions, developers often talk about diphones- parts of phones between two consecutive phones. Sometimes developers talk about subphonetic units - different substates of a phone. Often three or more regions of a different nature can easily be found\cite{2}.
 
 The first part of the phone depends on its preceding phone, the middle part is stable, and the next part depends on the subsequent phone. That's why there are often three states in a phone selected for speech recognition.Sometimes phones are considered in context. Such phones in context are called triphones or even quinphones. For computational purpose it is helpful to detect parts of triphones instead of triphones as a whole, for example, to create a detector for a beginning of triphone and share it across many triphones. The whole variety of sound detectors can be represented by a small amount of distinct short sound detectors. Usually we use 4000 distinct short sound detectors to compose detectors for triphones. We call those detectors senones. 
 
 \section{ Problem Statement}
 
-In this thesis work, the problem formulation for Punjabi Dictation in Natuarl Language Processing is defined. It would lead to the development of the system for the Punjab language model and Gurmuki font so that the speech to text covergence softwares and systems could convert speech data into Gurmukhi font. As the speech to text convergence is available for the some internationl language, but are not available for punjabi language and Gurmukhi font. The model used for this purpose is HMM(Hidden Markov’s MOdel) along with the CMUSphinx toolkit which are responsible for speech recognization and storing the data to the database. Further many liberaries are available for defining the new Acoustic Model for the different languages, so, we would use one of these model for defining language model for our requirement. The output of the data may be extracted through terminal using ANSI terminal protocol.
+In this thesis work, the problem formulation for Punjabi Dictation in Natuarl Language Processing is defined. It would lead to the development of the system for the Punjab language model and Gurmuki font so that the speech to text covergence softwares and systems could convert speech data into Gurmukhi font. As the speech to text convergence is available for the some internationl language, but are not available for punjabi language and Gurmukhi font. The model used for this purpose is HMM(Hidden Markov’s MOdel) along with the CMUSphinx toolkit which are responsible for speech recognization and storing the data to the database. Further many liberaries are available for defining the new Acoustic Model for the different languages, so, we would use one of these model for defining language model for our requirement. The output of the data may be extracted through terminal using ANSI terminal protocol\cite{3}.
 
 \section{Aims and Objectives}
 
@@ -317,17 +317,17 @@ Speech is a complex phenomenon. People rarely understand how is it produced and 
 %    \label{fig:mesh1}
 \end{figure}
 
-All modern descriptions of speech are to some degree probabilistic. That means that there are no certain boundaries between units, or between words. Speech to text translation and other applications of speech are never 100 percent correct. That idea is rather unusual for software developers, who usually work with deterministic systems. And it creates a lot of issues specific only to speech technology. 
+All modern descriptions of speech are to some degree probabilistic. That means that there are no certain boundaries between units, or between words. Speech to text translation and other applications of speech are never 100 percent correct. That idea is rather unusual for software developers, who usually work with deterministic systems. And it creates a lot of issues specific only to speech technology\cite{4}. 
 
 
 \subsection{Concept of Speech}
-Speech is a continuous audio stream where rather stable states mix with dynamically changed states. In this sequence of states, one can define more or less similar classes of sounds, or phones. Words are understood to be built of phones, but this is certainly not true. The acoustic properties of a waveform corresponding to a phone can vary greatly depending on many factors - phone context, speaker, style of speech and so on. The so called coarticulation makes phones sound very different from their “canonical” representation. Next, since transitions between words are more informative than stable regions, developers often talk about diphones- parts of phones between two consecutive phones. Sometimes developers talk about subphonetic units - different substates of a phone. Often three or more regions of a different nature can easily be found.
+Speech is a continuous audio stream where rather stable states mix with dynamically changed states. In this sequence of states, one can define more or less similar classes of sounds, or phones. Words are understood to be built of phones, but this is certainly not true. The acoustic properties of a waveform corresponding to a phone can vary greatly depending on many factors - phone context, speaker, style of speech and so on. The so called coarticulation makes phones sound very different from their “canonical” representation. Next, since transitions between words are more informative than stable regions, developers often talk about diphones- parts of phones between two consecutive phones. Sometimes developers talk about subphonetic units - different substates of a phone. Often three or more regions of a different nature can easily be found\cite{5}.
 
 The first part of the phone depends on its preceding phone, the middle part is stable, and the next part depends on the subsequent phone. That's why there are often three states in a phone selected for speech recognition.Sometimes phones are considered in context. Such phones in context are called triphones or even quinphones. For computational purpose it is helpful to detect parts of triphones instead of triphones as a whole, for example, to create a detector for a beginning of triphone and share it across many triphones. The whole variety of sound detectors can be represented by a small amount of distinct short sound detectors. Usually we use 4000 distinct short sound detectors to compose detectors for triphones. We call those detectors senones. 
 
 
 \subsection{Recognition Precess}
- The common way to recognize speech is the following: we take waveform, split it on utterances by silences then try to recognize what's being said in each utterance. To do that we want to take all possible combinations of words and try to match them with the audio. We choose the best matching combination. There are few important things in this match.
+ The common way to recognize speech is the following: we take waveform, split it on utterances by silences then try to recognize what's being said in each utterance. To do that we want to take all possible combinations of words and try to match them with the audio. We choose the best matching combination. There are few important things in this match\cite{6}.
 
 First of all it's a concept of features. Since number of parameters is large, we are trying to optimize it. Numbers that are calculated from speech usually by dividing speech on frames. Then for each frame of length typically 10 milliseconds we extract 39 numbers that represent the speech. That's called eature vector. They way to generates numbers is a subject of active investigation, but in simple case it's a derivative from spectrum.
 
@@ -347,7 +347,7 @@ According to the speech structure, three models are used in speech recognition t
 contains a mapping from words to phones. This mapping is not very effective. For example, only two to three pronunciation variants are noted in it, but it's practical enough most of the time. The dictionary is not the only variant of mapper from words to phones. It could be done with some complex function learned with a machine learning algorithm. 
 
   \item[$\bullet$ Language Model]
-	s used to restrict word search. It defines which word could follow previously recognized words (remember that matching is a sequential process) and helps to significantly restrict the matching process by stripping words that are not probable. Most common language models used are n-gram language models-these contain statistics of word sequences-and finite state language models-these define speech sequences by finite state automation, sometimes with weights. To reach a good accuracy rate, your language model must be very successful in search space restriction. This means it should be very good at predicting the next word. A language model usually restricts the vocabulary considered to the words it contains. That's an issue for name recognition. To deal with this, a language model can contain smaller chunks like subwords or even phones. Please note that search space restriction in this case is usually worse and corresponding recognition accuracies are lower than with a word-based language model.
+	is used to restrict word search. It defines which word could follow previously recognized words (remember that matching is a sequential process) and helps to significantly restrict the matching process by stripping words that are not probable. Most common language models used are n-gram language models-these contain statistics of word sequences-and finite state language models-these define speech sequences by finite state automation, sometimes with weights. To reach a good accuracy rate, your language model must be very successful in search space restriction. This means it should be very good at predicting the next word. A language model usually restricts the vocabulary considered to the words it contains. That's an issue for name recognition. To deal with this, a language model can contain smaller chunks like subwords or even phones. Please note that search space restriction in this case is usually worse and corresponding recognition accuracies are lower than with a word-based language model\cite{7}.
 
 \end{description}
 
@@ -412,7 +412,7 @@ The second problem of not knowing the word boundary locations can be avoided by 
 \section{Summary}
 In this chapter, we describes about the Introduction of Speech Recognition concept. Then further we discussed about Hidden mrkov's Model. In chapter we discussed about advantages of Speech Recognition systems, application of Speeh Recognition System.
 
-
+%==============================================================================================================================================
 \chapter{LITERATURE REVIEW}
 \section{Literature Review}
 The main objective of the present study was: “To develop a software for speech to
@@ -430,26 +430,26 @@ have been developed as a consequence of incremental advances in computer science
 Slowly these electronics devices have been spreading their roots in the soils of this
 society. Now computer systems are available for applications of civil amenities to
 medical diagnosis; home entertainment to space programs; simple calculations to
-complex mathematical modeling etc\cite21.
+complex mathematical modeling etc\cite{21}.
 
 In today’s fast placed world where every human being has to combat a race against
 time – a direct interface between the spoken words and computer user will gleefully
 accept the same words spontaneously typed on the computer screen with minimum
-lapse of time. The phenomenon is known as speech (voice) recognition.\cite21.
+lapse of time. The phenomenon is known as speech (voice) recognition.\cite{21}.
 
 Speech recognition is an emerging technology where a speaker speaks to computer
 with the microphone and computer understands the given words. Speech recognition
 is a great supplement to traditional mouse and keyboard input; it will boost
 productivity and provide a new option for people who have difficulty using a
-keyboard\cite21.
+keyboard\cite{21}.
 
 Speech is the most common mode of communication among human beings. The
 objective of speech recognition is to recognize the message being spoken. Differentorganization and researchers define the term “speech recognition”, and it can be summarized as follow:
 \begin{description}
 \item[$\bullet$] Speech recognition extracts the message information in a speech signal to control the
-actions of a machine in response to spoken commands\cite22.
+actions of a machine in response to spoken commands\cite{22}.
 \item[$\bullet$]Speaker recognition identifies or verifies a speaker for restricting access to
-information, network or physical premises\cite22.
+information, network or physical premises\cite{22}.
 \item[$\bullet$]Speech recognition is the process of finding a linguistic interpretation of a spoken
 utterance, typically, this means finding the sequence of characters, which forms the
 word.
@@ -494,7 +494,7 @@ accuracy spoken dictation technology. In 1997, VivaVoice, a dictation product us
 continuous voice technology was introduced. User no longer had to pause between
 words, and could speak at a natural pace. IBM offers several voice software one of
 them is IBM WebSphere software which consists of IBM WebSphere Voice Server,
-IBM WebSphere Voice Response and IBM Message Center\cite10.
+IBM WebSphere Voice Response and IBM Message Center\cite{10}.
 
 \subsubsection{Language Technology in India}
 As the computers are being slowly woven into the fabrics of the society, more and
@@ -517,7 +517,7 @@ through a keyboard having an overlay of the concerned Indian scripts. Based on t
 developments, codes for various keys used in Indian Scripts and their layout has been
 standardized by the Bureau of Indian Standard. This development has led to a number
 of software products that are currently available in the market to enable diverse users
-to carry out word processing, DTP, Spread sheet, Spell checkers etc\cite23.
+to carry out word processing, DTP, Spread sheet, Spell checkers etc\cite{23}.
 
 In addition to GIST, CDAC has also brought out a software called “LEAP” for Indian
 Language word processing on Windows. Variety of fonts for Indian Language have
@@ -529,18 +529,18 @@ Hindi, Punjabi, Sanskrit, Kashmiri and Urdu have been developed.
 The software for grammatical tagging of corpora, word count and frequency count
 and spell checkers are also developed.
 
-\textbf{W. Byrne:} "TOWARDS LANGUAGE INDEPENDENT ACOUSTIC MODELING" this paper describes procedures and experimental results using speech from
+\textbf{W. Byrne:} "Towards language independent acoustic modeling" this paper describes procedures and experimental results using speech from
 diverse source languages to build an ASR system for a single tar-get language. This work is intended to improve ASR in languages
 for which large amounts of training data are not available. they have developed both knowledge-based and automatic methods to
 map phonetic units from the source languages to the target language. We employed HMM adaptation techniques and Discrimi-
-native Model Combination to combine acoustic models from the individual source languages for recognition of speech in the target language[9].Byrne, William, et al. "Towards language independent acoustic modeling." Acoustics, Speech, and Signal Processing, 2000. ICASSP'00. Proceedings. 2000 IEEE International Conference on. Vol. 2. IEEE, 2000.
+native Model Combination to combine acoustic models from the individual source languages for recognition of speech in the target language[9].Byrne, William, et al. "Towards language independent acoustic modeling." Acoustics, Speech, and Signal Processing, 2000. ICASSP'00. Proceedings. 2000 IEEE International Conference on. Vol. 2. IEEE, 2000\cite{7}.
 
 \textbf{Richard P. Lippmann:} "Speech recognition by machines and humans" Comparises six modern speech corpora with vocabularies ranging from 10 to more than 65,000 words and content ranging from read isolated words to spontaneous conversations. Error rates of machines are often more than an order of magnitude greater than those of
 humans for quiet, wideband, read speech. Machine performance degrades further below that of humans in noise, with
 channel variability, and for spontaneous speech. Humans can also recognize quiet, clearly spoken nonsense syllables and
 nonsense sentences with little high-level grammatical information. These comparisons suggest that the human–machine
 performance gap can be reduced by basic research on improving low-level acoustic-phonetic modeling, on improving
-robustness with noise and channel variability, and on more accurately modeling spontaneous speech[10].  Lippmann, Richard P. "Speech recognition by machines and humans." Speech communication 22.1 (1997): 1-15.
+robustness with noise and channel variability, and on more accurately modeling spontaneous speech[10].  Lippmann, Richard P. "Speech recognition by machines and humans\cite{8}.
 
 \textbf{Tanja Schultz:} "Language-independent and language-adaptive acoustic modeling for speech recognition" this paper decribes  the distribution of speech technology products all over the world, the portability to new target languages
 becomes a practical concern. As a consequence our research focuses on the question of how to port large
@@ -549,7 +549,7 @@ to estimate acoustic models for a new target language using speech data from var
 limited data from the target language. For this purpose, they introduce different methods for multilingual acoustic
 model combination and a polyphone decision tree specialization procedure. Recognition results using language-
 dependent, independent and language-adaptive acoustic models are presented and discussed in the framework of
-our GlobalPhone project which investigates LVCSR systems in 15 languages[11].   Schultz, Tanja, and Alex Waibel. "Language-independent and language-adaptive acoustic modeling for speech recognition." Speech Communication 35.1 (2001): 31-51.
+our GlobalPhone project which investigates LVCSR systems in 15 languages[11].   Schultz, Tanja, and Alex Waibel. "Language-independent and language-adaptive acoustic modeling for speech recognition"\cite{9}.
 
 \textbf{Willie Walker, Paul Lamere:}"Sphinx-4: A Flexible Open Source Framework for Speech Recognition" this paper describes about sphinux that the phinx-4 is a flexible, modular and pluggable framework to help foster new innovations
 in the core research of hidden Markov model (HMM) speech recognition systems. The
@@ -558,9 +558,7 @@ systems as well as new requirements based on areas that researchers currently wa
 to explore. To exercise this framework, and to provide researchers with a “research-
 ready” system, Sphinx-4 also includes several implementations of both simple and
 state-of-the-art techniques. The framework and the implementations are all freely
-available via open source[12].  Walker, Willie, et al. "Sphinx-4: A flexible open source framework for speech recognition." (2004).
-
-
+available via open source\cite{10}.
 
 
 \textbf{Fuliang Weng:} in his paper "Efficient Lattice Representation and Generation" 
@@ -579,7 +577,7 @@ stead of giving all nodes a unique trigram context, this algorithm
 only creates unique contexts for trigrams that are explicitly repre-
 sented in the model. Backed-off trigram probabilities are encoded
 without node duplication by factoring the probabilities into bigram
-probabilities and backoff weights.     
+probabilities and backoff weights\cite{11}.     
 
 \textbf{Mohit Dua1, R.K.Aggarwal:}  " Punjabi Automatic Speech Recognition Using HTK" aims to discuss the implementation of an isolated
 word Automatic Speech Recognition system (ASR) for an
@@ -595,7 +593,7 @@ role of each HTK tool, used in various phases of system
 development, by presenting a detailed architecture of an ASR
 system developed using HTK library modules and tools. The
 experimental results show that the overall system performance
-is 95.63percent and 94.08percent       
+is 95.63percent and 94.08percent\cite{12}.       
 
 
 \textbf{Kumar Ravinder:} "Comparison of HMM and DTW for Isolated Word Recognition System of Punjabi Language" describes about te issue Issue of speech interface to computer.
@@ -614,7 +612,7 @@ highly difficult. The presented work emphasizes on template-based recognizer
 approach using linear predictive coding with dynamic programming computa-
 tion and vector quantization with Hidden Markov Model based recognizers in
 isolated word recognition tasks, which also significantly reduces the computa-
-tional costs. ref/cite Ravinder, Kumar. "Comparison of hmm and dtw for isolated word recognition system of punjabi language." Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications. Springer Berlin Heidelberg, 2010. 244-252.
+tional costs. ref/cite Ravinder, Kumar. "Comparison of hmm and dtw for isolated word recognition system of punjabi language." Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications. Springer Berlin Heidelberg, 2010. 244-252\cite{13}.
 
 \textbf{Peter Grasch:} this paper we present R E C OMMENT, our
 approach to natural language based unit critiquing. it discuss the
@@ -622,23 +620,23 @@ developed prototype and present the corresponding user interface.
 In order to show the applicability of our concepts, we present the
 results of a user study. This study shows that speech interfaces
 have the potential to improve the perceived ease of use as well as
-the overall quality of recommendations.  
+the overall quality of recommendations\cite{14}.  
 
 \textbf{R Kuman and R K Sharma:}In this paper "An efficient post processing algorithm for online handwriting gurmukhi character recognition using set theory" a post processor for accuracy of character recognition of real-time online Gurmukhi script has been developed.  analysis is based on dataset consisting of 184 samples of
-each 45 characters of Gurmukhi script collected from four di®erent categories of writers. Based
+each 45 characters of Gurmukhi script collected from four different categories of writers. Based
 on this extensive study, they  propose an efficient  algorithm for online handwritten Gurmukhi
 character recognition that achieves promising recognition accuracy of 95.6 percent for single character
 stroke sequencing. Beside character recognition the contribution in this paper is summarized
 in two folds as (i) the proposed scheme resolves stroke sequencing, (ii) overwritten strokes
 are identied and resolved. Moreover, for every stroke, complexity of adding new stroke for
-Gurmukhi character formation has been computed to be OðnÞ.  
+Gurmukhi character formation has been computed\cite{15}.  
 
 \textbf{Divya Bansal1, Ankita Goel:} their papaer " PUNJABI SPEECH SYNTHESIS SYSTEM USING HTK" describes an Hidden Markov Model-based Punjabi text-to-speech synthesis system (HTS), in
 which speech waveform is generated from Hidden Markov Models themselves, and applies it to Punjabi
 speech synthesis using the general speech synthesis architecture of HTK (HMM Tool Kit). This Hidden
 Markov Model based TTS can be used in mobile phones for stored phone directory or messages. Text
 messages and caller’s identity in English language are mapped to tokens in Punjabi language which are
-further concatenated to form speech with certain rules and procedures. 
+further concatenated to form speech with certain rules and procedures\cite{16}. 
 
 \textbf{Virender Kadyan:} "PUNJABI SPEECH TO TEXT SYSTEM FOR CONNECTED WORDS" This paper
 discusses the implementation of a connected word
@@ -651,7 +649,7 @@ system performs well with Word Recognition Rate
 (WR) 95.8 percent and 95.4 percent, Word Accuracy Rate (WA)
 94.1 percent and 91.6 percent and Word Error Rate (WER) 5.9 percent
 and 8.35 percent in class room and open environment
-respectively. 
+respectively\cite{17}. 
 
 \textbf{Wiqas Ghai:} in their paper " Continuous Speech Recognition for Punjabi Language " work has been
 done in the field of isolated word and connected word
@@ -664,7 +662,7 @@ recognizer to recognize continuous speech sentences by
 using Tri-Phone based acoustic modeling approach on HTK
 3.4.1 speech engine. Overall recognition accuracy has
 been found to be 82.18 percent at sentence level and 94.32 percent
-at word level.
+at word level\cite{18}.
 
 
 %====================================================================================================================================================
@@ -690,13 +688,13 @@ between the spoken word and Pc users will gleefully accept the same words
 spontaneously typed on the PC screen with minimum lapse of time. These
 technologies are getting easier to work with too. In the future, speech will definitely
 be the standard input mode that most of us will replace the traditional keyboard and
-mouse as the standard input device.
+mouse as the standard input device\cite{19}.
 
 The 1990s saw the first commercialization of spoken language understanding
 systems. Computers can now understand and react to humans speaking in a natural
 manner in ordinary languages within a limited domain. Basic and applied research in
 signal processing, computational linguistics and artificial intelligence have been
-combined to open up new possibilities in human-computer interfaces\cite21.
+combined to open up new possibilities in human-computer interfaces\cite{21}.
 
 So all this benifits motivates me to produce a dictation system for our motheer tongue "Punjabi" language. People from different social and economic backgrounds speak with different different dialects.Computers can now understand and react to humans speaking in a natural
 manner in ordinary languages within a limited domain. Basic and applied research in
@@ -751,18 +749,18 @@ GStreamer can bridge to other multimedia frameworks in order to reuse existing c
 \subsection{Gcc}
 GCC was originally written as the compiler for the GNU operating system. The GNU system was developed to be 100 percent free software, free in the sense that it respects the user's freedom.
 
-We strive to provide regular, high quality releases, which we want to work well on a variety of native and cross targets (including GNU/Linux), and encourage everyone to contribute changes or help testing GCC. Our sources are readily and freely available via SVN and weekly snapshots\cite{4}.
+We strive to provide regular, high quality releases, which we want to work well on a variety of native and cross targets (including GNU/Linux), and encourage everyone to contribute changes or help testing GCC. Our sources are readily and freely available via SVN and weekly snapshots\cite{27}.
 
 \subsection{Automake} 
-Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. Automake requires the use of Autoconf\cite{31}. The Automake manual can be read on-line or downloaded in PDF format; also, more formats are offered for download or on-line reading. If you have installed Automake on your system, you may also find more information about it by looking at your local documentation; for example you might use info automake at the shell prompt\cite{5}. 
+Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. Automake requires the use of Autoconf\cite{31}. The Automake manual can be read on-line or downloaded in PDF format; also, more formats are offered for download or on-line reading. If you have installed Automake on your system, you may also find more information about it by looking at your local documentation; for example you might use info automake at the shell prompt\cite{27}. 
  
 \subsection{Autoconf}
-Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. These scripts can adapt the packages to many kinds of UNIX-like systems without manual user intervention. Autoconf creates a configuration script for a package from a template file that lists the operating system features that the package can use, in the form of M4 macro calls\cite{6}.
+Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. These scripts can adapt the packages to many kinds of UNIX-like systems without manual user intervention. Autoconf creates a configuration script for a package from a template file that lists the operating system features that the package can use, in the form of M4 macro calls\cite{28}.
 
 \subsection{Libtool}
  GNU libtool is a generic library support script. Libtool hides the complexity of using shared libraries behind a consistent, portable interface.
 
-To use libtool, add the new generic library building commands to your Makefile, Makefile.in, or Makefile.am\cite{6}.
+To use libtool, add the new generic library building commands to your Makefile, Makefile.in, or Makefile.am\cite{28}.
 
 
 
@@ -792,10 +790,10 @@ Header files, a static library and development tools for building
 
 It's good for desktop applications, command and control and dictation where fast response and low resource consumption are the goals.
 
-Also it includes support for embedded devices with fixed-point ariphmetics and is successfully used on IPhone, Nokia devices and on Windows Mobile. You can find further documentation about PocketSphinx in the release documentation, or at the online  documentation\cite{7}. 
+Also it includes support for embedded devices with fixed-point ariphmetics and is successfully used on IPhone, Nokia devices and on Windows Mobile. You can find further documentation about PocketSphinx in the release documentation, or at the online  documentation\cite{29}. 
 
 \subsubsection{Sphinx-4}
-Sphinx-4 is a state-of-the-art speech recognition system written entirely in the Java™ programming language. It's best for implementation of complex server or cloud-based system with deep interaction with NLP modules, web services and cloud computing\cite{7}.
+Sphinx-4 is a state-of-the-art speech recognition system written entirely in the Java™ programming language. It's best for implementation of complex server or cloud-based system with deep interaction with NLP modules, web services and cloud computing\cite{29}.
 
 \subsection{Trainer}
 \subsubsection{SphinxTrain}
