@@ -1964,47 +1964,5 @@
     <bcf:datasource type="file" datatype="bibtex">sample.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">1</bcf:citekey>
-    <bcf:citekey order="2">2</bcf:citekey>
-    <bcf:citekey order="3">3</bcf:citekey>
-    <bcf:citekey order="4">4</bcf:citekey>
-    <bcf:citekey order="5">5</bcf:citekey>
-    <bcf:citekey order="6">6</bcf:citekey>
-    <bcf:citekey order="7">7</bcf:citekey>
-    <bcf:citekey order="8">21</bcf:citekey>
-    <bcf:citekey order="9">21</bcf:citekey>
-    <bcf:citekey order="10">21</bcf:citekey>
-    <bcf:citekey order="11">22</bcf:citekey>
-    <bcf:citekey order="12">22</bcf:citekey>
-    <bcf:citekey order="13">10</bcf:citekey>
-    <bcf:citekey order="14">23</bcf:citekey>
-    <bcf:citekey order="15">7</bcf:citekey>
-    <bcf:citekey order="16">8</bcf:citekey>
-    <bcf:citekey order="17">9</bcf:citekey>
-    <bcf:citekey order="18">10</bcf:citekey>
-    <bcf:citekey order="19">11</bcf:citekey>
-    <bcf:citekey order="20">12</bcf:citekey>
-    <bcf:citekey order="21">13</bcf:citekey>
-    <bcf:citekey order="22">14</bcf:citekey>
-    <bcf:citekey order="23">15</bcf:citekey>
-    <bcf:citekey order="24">16</bcf:citekey>
-    <bcf:citekey order="25">17</bcf:citekey>
-    <bcf:citekey order="26">18</bcf:citekey>
-    <bcf:citekey order="27">19</bcf:citekey>
-    <bcf:citekey order="28">21</bcf:citekey>
-    <bcf:citekey order="29">24</bcf:citekey>
-    <bcf:citekey order="30">25</bcf:citekey>
-    <bcf:citekey order="31">26</bcf:citekey>
-    <bcf:citekey order="32">27</bcf:citekey>
-    <bcf:citekey order="33">28</bcf:citekey>
-    <bcf:citekey order="34">27</bcf:citekey>
-    <bcf:citekey order="35">31</bcf:citekey>
-    <bcf:citekey order="36">27</bcf:citekey>
-    <bcf:citekey order="37">28</bcf:citekey>
-    <bcf:citekey order="38">28</bcf:citekey>
-    <bcf:citekey order="39">20</bcf:citekey>
-    <bcf:citekey order="40">29</bcf:citekey>
-    <bcf:citekey order="41">29</bcf:citekey>
-    <bcf:citekey order="42">30</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>
